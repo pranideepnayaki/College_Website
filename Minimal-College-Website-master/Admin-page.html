@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Administrator-login</title>
+	
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+	
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+</head>
+
+<body class="profile-page">
+	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    	<div class="container">
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="landing-page.html">GCTC</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+    				<li>
+    					
+    				</li>
+    				<li class="dropdown">
+	                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick nav
+												<b class="caret"></b>
+											</a>
+	                                    	<ul class="dropdown-menu dropdown-menu-right">
+	                                        	<li class="dropdown-header">Quick navigation</li>
+	                                        	<li><a href="Dept-page.html">Departments</a></li>
+		                                        <li><a href="Placements-page.html">Placements</a></li>
+												<li><a href="Photos-page.html">Photo-gallery</a></li>
+												<li><a href="https://www.gctcportal.in/" target="_blank">GCTC portal</a></li>
+		                                        <li><a href="about_us.html">About us</a></li>
+		                                        <li class="divider"></li>
+												<li><a href="Admin-login.html">Logout</a></li>
+		                                    </ul>
+	                           	</li>
+        			</ul>
+        		</div>
+    	</div>
+    </nav>
+    <div class="wrapper">
+		<div class="header header-filter" style="background-image: url('unsplash.jpg');"></div>
+
+		<div class="main main-raised">
+			<div class="profile-content">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="profile">
+	                        <div class="avatar">
+	                            <img src="assets/img/Administration.png" alt="Circle Image" class="img-circle img-responsive img-raised">
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">Welcome Administrator</h3>
+								<h6>Admin@gctcweb.page</h6>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="description text-center">
+                        <p>The details of visitor of our page are here!<br>make sure that our staff get this detais as soon as possible. </p>
+	                </div>
+                    <center>
+                        <?php
+                        
+                         include 'retrieve.php';
+                        ?>
+                    </center>
+	            </div><br><br><br><br>
+	        </div>
+		</div>
+
+    </div>
+ 	    <footer class="footer">
+	        <div class="container">
+	            <nav class="pull-left">
+	               <!-- <ul>
+						<li>
+	                        <a href="about_us.html">
+	                           About Us
+	                        </a>
+	                    </li>
+	                </ul>-->
+	            </nav>
+	            <div class="copyright pull-right">
+	                <h6 style="font-size: 0.91em">MINIMAL GCTC</h6>
+	            </div>
+	        </div>
+	    </footer>
+
+</body>
+</html>

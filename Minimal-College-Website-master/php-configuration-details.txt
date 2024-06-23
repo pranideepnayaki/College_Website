@@ -1,0 +1,16 @@
+
+========PROJECT-MINIMAL-GCTC========
+
+--database_details--
+
+data base	    : admin
+data base user name : dbuser
+data base user name : password
+data base table1name: admin
+	fields	    : USERNAME | PASSWORD 
+data base table2name: students
+	fields	    : NAME | EMAIL | PHONE NO
+
+working perfectly on 
+XAMPP version = v3.2.4
+
